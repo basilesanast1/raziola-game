@@ -2,7 +2,7 @@ import pygame
 pygame.init()
 
 win = pygame.display.set_mode((650,500))
-pygame.display.set_caption('Η ΡΑΖΙΟΛΑ ΑΠΕΧΕΙ 5 ΜΕΤΡΑ ΜΑΚΡΙΑ ΣΟΥ. ΚΑΝΕ ΚΛΙΚ ΕΔΩ ΓΙΑ ΝΑ ΜΑΘΕΙΣ')
+pygame.display.set_caption('Θέλω Γκόμενα')
 sq = pygame.Rect(0,0,50,50)
 imm = pygame.image.load('2065.jpg')
 im = pygame.transform.scale(imm,(650,500))
